@@ -69,7 +69,9 @@ class ConcentrationViewController: UIViewController {
     var theme: String?
     {
         didSet{
+            
             EmojiChoices = theme ?? ""
+            print(EmojiChoices)
             emoji = [:]
             updateViewFromModel()
         }

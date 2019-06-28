@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		C527267B22BCCEF000806A83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C527267A22BCCEF000806A83 /* AppDelegate.swift */; };
-		C527267D22BCCEF000806A83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C527267C22BCCEF000806A83 /* ViewController.swift */; };
+		C527267D22BCCEF000806A83 /* ConcentrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C527267C22BCCEF000806A83 /* ConcentrationViewController.swift */; };
 		C527268022BCCEF000806A83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C527267E22BCCEF000806A83 /* Main.storyboard */; };
 		C527268222BCCEF100806A83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C527268122BCCEF100806A83 /* Assets.xcassets */; };
 		C527268522BCCEF100806A83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C527268322BCCEF100806A83 /* LaunchScreen.storyboard */; };
 		C527269022BCCEF100806A83 /* concerntarationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C527268F22BCCEF100806A83 /* concerntarationTests.swift */; };
 		C527269B22BCCEF100806A83 /* concerntarationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C527269A22BCCEF100806A83 /* concerntarationUITests.swift */; };
+		C52726AE22BD055300806A83 /* concerntration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52726AD22BD055300806A83 /* concerntration.swift */; };
+		C52726B222BD07DC00806A83 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52726B122BD07DC00806A83 /* Card.swift */; };
+		C5A0310822C5ECC6003D2E45 /* ConcerntrationThemeChooseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A0310722C5E5A5003D2E45 /* ConcerntrationThemeChooseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,7 @@
 /* Begin PBXFileReference section */
 		C527267722BCCEF000806A83 /* concerntaration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = concerntaration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C527267A22BCCEF000806A83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C527267C22BCCEF000806A83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C527267C22BCCEF000806A83 /* ConcentrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcentrationViewController.swift; sourceTree = "<group>"; };
 		C527267F22BCCEF000806A83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C527268122BCCEF100806A83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C527268422BCCEF100806A83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,9 @@
 		C527269622BCCEF100806A83 /* concerntarationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = concerntarationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C527269A22BCCEF100806A83 /* concerntarationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = concerntarationUITests.swift; sourceTree = "<group>"; };
 		C527269C22BCCEF100806A83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C52726AD22BD055300806A83 /* concerntration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = concerntration.swift; sourceTree = "<group>"; };
+		C52726B122BD07DC00806A83 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		C5A0310722C5E5A5003D2E45 /* ConcerntrationThemeChooseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcerntrationThemeChooseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +103,12 @@
 		C527267922BCCEF000806A83 /* concerntaration */ = {
 			isa = PBXGroup;
 			children = (
-				C527267A22BCCEF000806A83 /* AppDelegate.swift */,
-				C527267C22BCCEF000806A83 /* ViewController.swift */,
+				C5A0310722C5E5A5003D2E45 /* ConcerntrationThemeChooseViewController.swift */,
+				C527267C22BCCEF000806A83 /* ConcentrationViewController.swift */,
+				C52726B122BD07DC00806A83 /* Card.swift */,
+				C52726AD22BD055300806A83 /* concerntration.swift */,
+				C52726A822BCD06300806A83 /* extra */,
 				C527267E22BCCEF000806A83 /* Main.storyboard */,
-				C527268122BCCEF100806A83 /* Assets.xcassets */,
-				C527268322BCCEF100806A83 /* LaunchScreen.storyboard */,
 				C527268622BCCEF100806A83 /* Info.plist */,
 			);
 			path = concerntaration;
@@ -123,6 +130,16 @@
 				C527269C22BCCEF100806A83 /* Info.plist */,
 			);
 			path = concerntarationUITests;
+			sourceTree = "<group>";
+		};
+		C52726A822BCD06300806A83 /* extra */ = {
+			isa = PBXGroup;
+			children = (
+				C527267A22BCCEF000806A83 /* AppDelegate.swift */,
+				C527268122BCCEF100806A83 /* Assets.xcassets */,
+				C527268322BCCEF100806A83 /* LaunchScreen.storyboard */,
+			);
+			path = extra;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +273,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C527267D22BCCEF000806A83 /* ViewController.swift in Sources */,
+				C52726AE22BD055300806A83 /* concerntration.swift in Sources */,
+				C52726B222BD07DC00806A83 /* Card.swift in Sources */,
+				C527267D22BCCEF000806A83 /* ConcentrationViewController.swift in Sources */,
+				C5A0310822C5ECC6003D2E45 /* ConcerntrationThemeChooseViewController.swift in Sources */,
 				C527267B22BCCEF000806A83 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
